@@ -1,0 +1,26 @@
+default:
+  database:
+    path: "/home/pablo/Rprojects/chi2labs/data/chi2_springfield2-v1.0.sqlite"
+  github:
+    auth_token: "192fdec9a098ba8e37e92a7875ec3501d6402dcb"
+  cognito:
+    group_name: "x2test"
+    oauth_flow: "code"
+    base_cognito_url: "https://x2test.auth.us-east-2.amazoncognito.com/"
+    app_client_id: "35jrl2tn45ifbqsbn235o96cak"
+    app_client_secret: "g71pg242bd90tg804lj8k20er1lmsgusn8crg3uc6nnpiuvpien"
+    redirect_uri: "http://localhost:5499"
+    redirect_uri_logout: "http://localhost:5499?action=logout"
+shinyapps:
+  database:
+    path: "chi2_springfield2-v1.0.sqlite"
+  github:
+    auth_token: "192fdec9a098ba8e37e92a7875ec3501d6402dcb"
+  cognito:
+    group_name: "x2test"
+    oauth_flow: "code"
+    base_cognito_url: "https://x2test.auth.us-east-2.amazoncognito.com/"
+    app_client_id: "35jrl2tn45ifbqsbn235o96cak"
+    app_client_secret: "g71pg242bd90tg804lj8k20er1lmsgusn8crg3uc6nnpiuvpien"
+    redirect_uri: "https://chi2.shinyapps.io/instructor_dashboard"
+    redirect_uri_logout: "https://chi2.shinyapps.io/instructor_dashboard"
