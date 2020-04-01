@@ -1,5 +1,6 @@
-b101cc502cbf402ba8db3071b0a43f9a *DESCRIPTION
+3d069dd714774706f0df05fbea0e0a76 *DESCRIPTION
 32e8680ee0f6f57f652b9a255da432bb *NAMESPACE
+e2b59e9c1f2fc2d15d5930c23aa10e25 *NEWS.md
 ef49f1a253a45f3c6d0a0da384feacce *R/cognito_server.R
 9a6d7577f7aeec4336311ff70132546e *R/cognito_ui.R
 6b8ba1b6f38097c1a470b5729b56040d *R/cookie_server.R
@@ -13,7 +14,6 @@ bc58a5f872e34ee7731646dc95d0f2a0 *R/get_info_user.R
 292c8163214f7c1af6bc4d74370eccbc *R/logout_ui.R
 c68ccd676a8a0db5c372fa2dd0a0fdb3 *README.md
 a1e1070db69e091c692958ab877c9917 *build/vignette.rds
-75ae0d62ce33d8a5dd1fae2f18edf38a *inst/config.yml
 38ec7861de5257d4ad23c8cdc8a945b7 *inst/doc/adding_cognitoR_to_your_app.R
 d829aa1bd3ff11081e3db7bc7e00646d *inst/doc/adding_cognitoR_to_your_app.Rmd
 72a17a3ca5bf14f048862d50b83cf4d8 *inst/doc/adding_cognitoR_to_your_app.html
