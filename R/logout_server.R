@@ -7,6 +7,8 @@
 #' @param session Shiny session
 #' @param isLogged reactive
 #' @param textlogged character
+#' @examples
+#' logout_server(NULL, NULL, NULL)
 #' @import shiny
 #' @rawNamespace import(shinyjs, except = runExample)
 #' @return reactive (the logout button)
@@ -32,5 +34,5 @@ logout_server <- function(input,
     }
   })
 
-  return(reactive(input$logout))
+  reactive(input$logout)
 }
