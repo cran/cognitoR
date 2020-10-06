@@ -19,7 +19,7 @@ This package is developed and mantained by the
 <a href="https://www.chi2labs.com/">Chi2Labs</a> team.
 
 Inspired on an initial contribution by
-<a href="https://adisarid.github.io/post/2019-08-10-cognito-shiny-authentication" target="_blank">Adi
+<a href="https://adisarid.github.io/post/2019-08-10-cognito-shiny-authentication/" target="_blank">Adi
 Sarid</a>.
 
 ## Disclaimer
@@ -130,6 +130,7 @@ Your basic configuration in Amazon Cognito is ready.
 This package requires that you have a configuration file (“config.yml”)
 in your application folder with the following structure:
 
+  - group\_id: The ID Pool
   - group\_name: The User Pool Name.
   - oauth\_flow: Flow configured,(“code” for Authorization code grant
     flow or “token” for Implicit grant)
@@ -144,6 +145,7 @@ Example:
 ``` yml
 default:
   cognito:
+    group_id: ""
     group_name: "YOUR_POOL_NAME"
     oauth_flow: "code"
     base_cognito_url: "https://your_domain.auth.us-east-1.amazoncognito.com"
