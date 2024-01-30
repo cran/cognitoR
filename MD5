@@ -1,4 +1,4 @@
-a2e2bf28b7222a4e9b75c0030a1a91f5 *DESCRIPTION
+ce21c688c3ccd0da36cce9e82ab89415 *DESCRIPTION
 fc317880360bc25ca4c5c706355d6933 *NAMESPACE
 f31264bb63d00ebc73cc426094c34d30 *NEWS.md
 179c38cb52dac8b763e2ece4ae71a9b0 *R/cognito_add_account.R
@@ -9,17 +9,17 @@ da3a779badd3b77a8f356fdb8c7e7964 *R/cookie_ui.R
 d9db6dcf99e7cd77e53c0905c28fbe95 *R/get_config.R
 7e51def04d7d75e64868a2c2b5e32905 *R/get_info_user.R
 4081e83c2ec5a5ddccd1b4ed7201a8f7 *R/get_token_access.R
-fb610346d3dc208d9828bf897cca6b65 *R/get_url_auth_redirect.R
+608fd74dcf017d97fd5cd5b5b15796f3 *R/get_url_auth_redirect.R
 bf9079880695ceaa0054729599169426 *R/get_url_logout_redirect.R
 9bb6648fc2a02871df8703779b5c133e *R/logout_server.R
 7e309b5f0689d3a0ebc2b15d7ae0ebb0 *R/logout_ui.R
 1e9c6add655f52c4b28ecf807af16679 *README.md
-0ac85bbfa61dc1717165989d145ae42e *build/vignette.rds
+decd192a288623e3cd54b50ac4f3683e *build/vignette.rds
 029496f4e3f5a88e72afd6ad6317bff1 *inst/css/loader.css
 d71d8ccb7264fb1ca4a4ec9a871849d1 *inst/css/spinner.gif
-38ec7861de5257d4ad23c8cdc8a945b7 *inst/doc/adding_cognitoR_to_your_app.R
+72cc317cf07a0baf25d636680bc3b012 *inst/doc/adding_cognitoR_to_your_app.R
 d829aa1bd3ff11081e3db7bc7e00646d *inst/doc/adding_cognitoR_to_your_app.Rmd
-fc2c155cfe95cd997072f3ba10f05c01 *inst/doc/adding_cognitoR_to_your_app.html
+b72f84fb331895925acec5e5e4857a77 *inst/doc/adding_cognitoR_to_your_app.html
 fcdc71c4571535185360ed32fff038c5 *inst/examples/cognito-mobile-app.R
 63f680db721580c204ac81374cdc146d *inst/examples/config.yml
 92438f668a1de4980f439a6e31f2f6d8 *inst/examples/cookie-app.R
